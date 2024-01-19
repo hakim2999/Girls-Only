@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" class="box-border p-0 m-0 focus:outline-none ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="./src/css/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body class="w-[100%] bg-[#fafafa] relative ">
+
+
+
+    <!--navbar-->
+    <nav class="p-5 shadow text-violet-700 bg-violet-300 md:flex md:items-center md:justify-between ">
+        <div class="flex items-center justify-between ">
+            <span class="text-2xl font-[Poppins] font-bold cursor-pointer">
+           Girls Only
+        </span>
+
+            <span class="block mx-2 text-3xl cursor-pointer md:hidden">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
+        </div>
+
+        <!--navlist 'z-[-1]' -->
+        <ul class="  bg-violet-300  md:flex md:items-center z-[1] md:z-auto md:static absolute  w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./index.html" class="px-2 text-xl duration-500 rounded-full hover:text-violet-800 hover:underline">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./src/Notification.html" class="text-xl duration-500 hover:underline hover:text-violet-800">Notification</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./src/Messages.html" class="text-xl duration-500 hover:text-violet-800 hover:underline">Messages</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./src/profile.html" class="text-xl duration-500 hover:text-violet-800 hover:underline">Profile</a>
+            </li>
+
+            <a href="./src/login.html">
+                <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full">
+        Login
+     </button>
+            </a>
+            <h2 class=""></h2>
+        </ul>
+    </nav>
+
+
+    <section class="w-[100%] p-[40px,0]   flex justify-center mt-[50px] text-violet-700">
+        <div class="w=[70%] max-w-[1000px] grid grid-cols-[60%,40%] gap-[30px] max-xl:block max-xl:w-[90%] ">
+            <!--left col -->
+            <div class="flex flex-col max-w-[1100px]">
+                <!--statuebar start -->
+                <div class=" scr w=[100%] h-[120px] bg-[#fff] border-spacing-[1px] border-solid border-[#dfdfdf] rounded-[2px] p-[10px] pr-0 flex items-center overflow-hidden overflow-x-auto  ">
+                    <!--statuebar-->
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto] ">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] "><img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 1.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50 ">user_name_1</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] "><img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 2.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_2</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] "><img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 3.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px]  opacity-50 ">user_name_3</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 4.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_4</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 5.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px]  opacity-50 ">user_name_5</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 6.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_6</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 7.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_7</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 8.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_8</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 9.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px]  opacity-50 ">user_name_9</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 10.png" alt=""></div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_10</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 11.png" alt="">
+                        </div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_11</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 12.png" alt="">
+                        </div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_12</p>
+                    </div>
+                    <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                        <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                            <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]" src="./public/images/cover 13.png" alt="">
+                        </div>
+                        <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_13</p>
+                    </div>
+                    <!--
+                <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                    <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                        <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]"
+                            src="./public/images/g3.jpg" alt="">
+                    </div>
+                    <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_14</p>
+                </div>
+                <div class="w-80 max-w-[80px] flex flex-col items-center mr-[15px] flex-[0,0,auto]">
+                    <div class="w-[70px] h-[70px] rounded-[50%] overflow-hidden p-[3px] bg-gradient-to-r from-[#ffe600] to-[#ff00c8] ">
+                        <img class="w-[100%] h-[100%] object-cover rounded-[50%] border-2 border-solid border-[#fff]"
+                            src="./public/images/g5.jpg" alt="">
+                    </div>
+                    <p class="w-[100%] overflow-hidden text-center mt-[5px] opacity-50  ">user_name_15</p>
+                </div>
+                -->
+                </div>
+                <!--statuebar end -->
+
+                <!--post start-->
+                <!-- start item -->
+                <div class="w-[100%] h-auto bg-[#fff] border-1 border-solid border-[#dfdfdf] mt-[40px]">
+                    <div class="w-[100%] h-[60px] flex justify-between items-center p-[0,20px]">
+                        <div class="flex cursor-pointer">
+                            <div class="h-[40px] w-[40px] p-0 bg-none"><img class="border rounded-full " src="./public/images/cover 1.png" alt="">
+                            </div>
+                            <p class="w-auto font-bold text-[#000] ml-[10px]">modern_web_channel</p>
+                        </div>
+                        <img src="./public/images/option.PNG" class="h-[10px] cursor-pointer" alt="">
+                    </div>
+                    <img src="./public/images/cover 1.png" class="w-[100%] h-[500px] object-cover   sm:h[300px]" alt="">
+                    <div class="w-[100%] p-[20px]">
+                        <div class="w-[100%] h-[50px] flex mt-[-20px] items-center hover:cursor-pointer">
+                            <ion-icon onclick="like(this)" name="heart-outline" class="h-[25px] m-0 mr-[20px] text-2xl"></ion-icon>
+                            <img src="./public/images/comment.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <img src="./public/images/send.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <ion-icon onclick="save(this)" name="bookmark-outline" class="h-[25px] m-0 mr-[20px] text-2xl ml-auto "></ion-icon>
+                        </div>
+                        <p class="font-bold ">1,012 likes</p>
+                        <p class="m-[10px,0] text-[14px] leading-[20px] "><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                        <p class="text-[12px] opacity-50">2 minutes ago</p>
+                    </div>
+                    <div class="w-[100%] h-[50px] border-solid border-[#dfdfdf] rounded-[1px] flex justify-center items-center">
+                        <img src="./public/images/smile.PNG" class="h-[30px]" alt="">
+                        <input type="text" class="w-[80%] h-[100%] border-none outline-none text-[14px] p-[5px]" placeholder="Add a comment">
+                        <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full">post</button>
+                    </div>
+                </div>
+                <!-- end item -->
+
+                <!-- start item -->
+                <div class="w-[100%] h-auto bg-[#fff] border-1 border-solid border-[#dfdfdf] mt-[40px]">
+                    <div class="w-[100%] h-[60px] flex justify-between items-center p-[0,20px]">
+                        <div class="flex cursor-pointer">
+                            <div class="h-[40px] w-[40px] p-0 bg-none"><img class="border rounded-full " src="./public/images/cover 2.png" alt="">
+                            </div>
+                            <p class="w-auto font-bold text-[#000] ml-[10px]">modern_web_channel</p>
+                        </div>
+                        <img src="./public/images/option.PNG" class="h-[10px] cursor-pointer" alt="">
+                    </div>
+                    <img src="./public/images/cover 2.png" class="w-[100%] h-[500px] object-cover  sm:h[300px]" alt="">
+                    <div class="w-[100%] p-[20px]">
+                        <div class="w-[100%] h-[50px] flex mt-[-20px] items-center  hover:cursor-pointer" ">
+                            <ion-icon onclick="like(this) " name="heart-outline " class="h-[25px] m-0 mr-[20px] text-2xl "></ion-icon>
+                            <img src="./public/images/comment.PNG " class="h-[25px] m-0 mr-[20px] " alt=" ">
+                            <img src="./public/images/send.PNG " class="h-[25px] m-0 mr-[20px] " alt=" ">
+                            <ion-icon onclick="save(this) " name="bookmark-outline " class="h-[25px] m-0 mr-[20px] text-2xl ml-auto "></ion-icon>
+                        </div>
+                        <p class="font-bold ">1,012 likes</p>
+                        <p class="m-[10px,0] text-[14px] leading-[20px] "><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                        <p class="text-[12px] opacity-50 ">2 minutes ago</p>
+                    </div>
+                    <div class="w-[100%] h-[50px] border-solid border-[#dfdfdf] rounded-[1px] flex justify-center items-center ">
+                        <img src="./public/images/smile.PNG " class="h-[30px] " alt=" ">
+                        <input type="text " class="w-[80%] h-[100%] border-none outline-none text-[14px] ml-auto " placeholder="Add a comment ">
+                        <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full ">post</button>
+                    </div>
+                </div> 
+                <!-- end item -->
+                
+                <!-- start item -->
+                <div class="w-[100%] h-auto bg-[#fff] border-1 border-solid border-[#dfdfdf] mt-[40px] ">
+                    <div class="w-[100%] h-[60px] flex justify-between items-center p-[0,20px] ">
+                        <div class="flex cursor-pointer ">
+                            <div class="h-[40px] w-[40px] p-0 bg-none "><img class="border rounded-full " src="./public/images/cover 2.png " alt=" ">
+                            </div>
+                            <p class="w-auto font-bold text-[#000] ml-[10px] ">modern_web</p>
+                        </div>
+                        <img src="./public/images/option.PNG " class="h-[10px] cursor-pointer " alt=" ">
+                    </div>
+                    <img src="./public/images/g1.jpg " class="w-[100%] h-[500px] object-cover sm:h[300px] " alt=" ">
+                    <div class="w-[100%] p-[20px] ">
+                        <div class="w-[100%] h-[50px] flex mt-[-20px] items-center hover:cursor-pointer "">
+                            <ion-icon onclick="like(this)" name="heart-outline" class="h-[25px] m-0 mr-[20px] text-2xl"></ion-icon>
+                            <img src="./public/images/comment.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <img src="./public/images/send.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <ion-icon onclick="save(this)" name="bookmark-outline" class="h-[25px] m-0 mr-[20px] text-2xl ml-auto "></ion-icon>
+                        </div>
+                        <p class="font-bold ">1,012 likes</p>
+                        <p class="m-[10px,0] text-[14px] leading-[20px] "><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                        <p class="text-[12px] opacity-50">2 minutes ago</p>
+                    </div>
+                    <div class="w-[100%] h-[50px] border-solid border-[#dfdfdf] rounded-[1px] flex justify-center items-center">
+                        <img src="./public/images/smile.PNG" class="h-[30px]" alt="">
+                        <input type="text" class="w-[80%] h-[100%] border-none outline-none text-[14px] ml-auto " placeholder="Add a comment">
+                        <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full">post</button>
+                    </div>
+                </div>
+                <!-- end item -->
+                <!-- start item -->
+                <div class="w-[100%] h-auto bg-[#fff] border-1 border-solid border-[#dfdfdf] mt-[40px]">
+                    <div class="w-[100%] h-[60px] flex justify-between items-center p-[0,20px]">
+                        <div class="flex cursor-pointer">
+                            <div class="h-[40px] w-[40px] p-0 bg-none"><img class="border rounded-full " src="./public/images/cover 2.png" alt="">
+                            </div>
+                            <p class="w-auto font-bold text-[#000] ml-[10px]">modern_web_channel</p>
+                        </div>
+                        <img src="./public/images/option.PNG" class="h-[10px] cursor-pointer" alt="">
+                    </div>
+                    <img src="./public/images/g2.jpg" class="w-[100%] h-[500px] object-cover  sm:h[300px]" alt="">
+                    <div class="w-[100%] p-[20px]">
+                        <div class="w-[100%] h-[50px] flex mt-[-20px] items-center  hover:cursor-pointer" ">
+                            <ion-icon onclick="like(this) " name="heart-outline " class="h-[25px] m-0 mr-[20px] text-2xl "></ion-icon>
+                            <img src="./public/images/comment.PNG " class="h-[25px] m-0 mr-[20px] " alt=" ">
+                            <img src="./public/images/send.PNG " class="h-[25px] m-0 mr-[20px] " alt=" ">
+                            <ion-icon onclick="save(this) " name="bookmark-outline " class="h-[25px] m-0 mr-[20px] text-2xl ml-auto "></ion-icon>
+                        </div>
+                        <p class="font-bold ">1,012 likes</p>
+                        <p class="m-[10px,0] text-[14px] leading-[20px] "><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                        <p class="text-[12px] opacity-50 ">2 minutes ago</p>
+                    </div>
+                    <div class="w-[100%] h-[50px] border-solid border-[#dfdfdf] rounded-[1px] flex justify-center items-center ">
+                        <img src="./public/images/smile.PNG " class="h-[30px] " alt=" ">
+                        <input type="text " class="w-[80%] h-[100%] border-none outline-none text-[14px] ml-auto " placeholder="Add a comment ">
+                        <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full ">post</button>
+                    </div>
+                </div>
+                <!-- end item -->      
+                <!-- start item -->
+                <div class="w-[100%] h-auto bg-[#fff] border-1 border-solid border-[#dfdfdf] mt-[40px] ">
+                    <div class="w-[100%] h-[60px] flex justify-between items-center p-[0,20px] ">
+                        <div class="flex cursor-pointer ">
+                            <div class="h-[40px] w-[40px] p-0 bg-none "><img class="border rounded-full " src="./public/images/cover 2.png " alt=" ">
+                            </div>
+                            <p class="w-auto font-bold text-[#000] ml-[10px] ">modern_web_channel</p>
+                        </div>
+                        <img src="./public/images/option.PNG " class="h-[10px] cursor-pointer " alt=" ">
+                    </div>
+                    <img src="./public/images/g3.jpg " class="w-[100%] h-[500px] object-cover sm:h[300px] " alt=" ">
+                    <div class="w-[100%] p-[20px] ">
+                        <div class="w-[100%] h-[50px] flex mt-[-20px] items-center hover:cursor-pointer "">
+                            <ion-icon onclick="like(this)" name="heart-outline" class="h-[25px] m-0 mr-[20px] text-2xl"></ion-icon>
+                            <img src="./public/images/comment.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <img src="./public/images/send.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <ion-icon onclick="save(this)" name="bookmark-outline" class="h-[25px] m-0 mr-[20px] text-2xl ml-auto "></ion-icon>
+                        </div>
+                        <p class="font-bold ">1,012 likes</p>
+                        <p class="m-[10px,0] text-[14px] leading-[20px] "><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                        <p class="text-[12px] opacity-50">2 minutes ago</p>
+                    </div>
+                    <div class="w-[100%] h-[50px] border-solid border-[#dfdfdf] rounded-[1px] flex justify-center items-center">
+                        <img src="./public/images/smile.PNG" class="h-[30px]" alt="">
+                        <input type="text" class="w-[80%] h-[100%] border-none outline-none text-[14px] ml-auto " placeholder="Add a comment">
+                        <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full">post</button>
+                    </div>
+                </div>
+                <!-- end item -->
+                <!-- start item -->
+                <div class="w-[100%] h-auto bg-[#fff] border-1 border-solid border-[#dfdfdf] mt-[40px]">
+                    <div class="w-[100%] h-[60px] flex justify-between items-center p-[0,20px]">
+                        <div class="flex cursor-pointer">
+                            <div class="h-[40px] w-[40px] p-0 bg-none"><img class="border rounded-full " src="./public/images/cover 2.png" alt="">
+                            </div>
+                            <p class="w-auto font-bold text-[#000] ml-[10px]">modern_web_channel</p>
+                        </div>
+                        <img src="./public/images/option.PNG" class="h-[10px] cursor-pointer" alt="">
+                    </div>
+                    <img src="./public/images/g4.jpg" class="w-[100%] h-[500px] object-cover  sm:h[300px]" alt="">
+                    <div class="w-[100%] p-[20px]">
+                        <div class="w-[100%] h-[50px] flex mt-[-20px] items-center  hover:cursor-pointer" ">
+                            <ion-icon onclick="like(this) " name="heart-outline " class="h-[25px] m-0 mr-[20px] text-2xl "></ion-icon>
+                            <img src="./public/images/comment.PNG " class="h-[25px] m-0 mr-[20px] " alt=" ">
+                            <img src="./public/images/send.PNG " class="h-[25px] m-0 mr-[20px] " alt=" ">
+                            <ion-icon onclick="save(this) " name="bookmark-outline " class="h-[25px] m-0 mr-[20px] text-2xl ml-auto "></ion-icon>
+                        </div>
+                        <p class="font-bold ">1,012 likes</p>
+                        <p class="m-[10px,0] text-[14px] leading-[20px] "><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                        <p class="text-[12px] opacity-50 ">2 minutes ago</p>
+                    </div>
+                    <div class="w-[100%] h-[50px] border-solid border-[#dfdfdf] rounded-[1px] flex justify-center items-center ">
+                        <img src="./public/images/smile.PNG " class="h-[30px] " alt=" ">
+                        <input type="text " class="w-[80%] h-[100%] border-none outline-none text-[14px] ml-auto " placeholder="Add a comment ">
+                        <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full ">post</button>
+                    </div>
+                </div>
+                <!-- end item --> 
+               
+                <!-- start item -->
+                <div class="w-[100%] h-auto bg-[#fff] border-1 border-solid border-[#dfdfdf] mt-[40px] ">
+                    <div class="w-[100%] h-[60px] flex justify-between items-center p-[0,20px] ">
+                        <div class="flex cursor-pointer ">
+                            <div class="h-[40px] w-[40px] p-0 bg-none "><img src="./public/images/cover 2.png " alt=" "></div>
+                            <p class="w-auto font-bold text-[#000] ml-[10px] ">modern_web_channel</p>
+                        </div>
+                        <img src="./public/images/option.PNG " class="h-[10px] cursor-pointer " alt=" ">
+                    </div>
+                    <img src="./public/images/g5.jpg " class="w-[100%] h-[500px] object-cover sm:h[300px] " alt=" ">
+                    <div class="w-[100%] p-[20px] ">
+                        <div class="w-[100%] h-[50px] flex mt-[-20px] items-center hover:cursor-pointer "">
+                            <ion-icon onclick="like(this)" name="heart-outline" class="h-[25px] m-0 mr-[20px] text-2xl"></ion-icon>
+                            <img src="./public/images/comment.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <img src="./public/images/send.PNG" class="h-[25px] m-0 mr-[20px]" alt="">
+                            <ion-icon onclick="save(this)" name="bookmark-outline" class="h-[25px] m-0 mr-[20px] text-2xl ml-auto "></ion-icon>
+                        </div>
+                        <p class="font-bold ">1,012 likes</p>
+                        <p class="m-[10px,0] text-[14px] leading-[20px] "><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                        <p class="text-[12px] opacity-50">2 minutes ago</p>
+                    </div>
+                    <div class="w-[100%] h-[50px] border-solid border-[#dfdfdf] rounded-[1px] flex justify-center items-center">
+                        <img src="./public/images/smile.PNG" class="h-[30px]" alt="">
+                        <input type="text" class="w-[80%] h-[100%] border-none outline-none text-[14px] ml-auto " placeholder="Add a comment">
+                        <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full">post</button>
+                    </div>
+                </div>
+                <!-- end item -->
+            </div>
+            <!--right col-->
+            <div class="p-[20px]  max-xl:hidden">
+                <!--suggestion-->
+                <div class=" w-fit flex justify-center items-center mb-[10px]">
+                    <div class="flex-[0,0,auto] p-0 bg-none w-[70px] h-[70px] mr-[10px]">
+                        <img src="./public/images/profile-pic.png" class="border-none rounded-full" alt="">
+                    </div>
+                    <div>
+                        <p class="font-[500] text-[14px] text-[#000]">modern_web_channel</p>
+                        <p class=" opacity-50 text-[12px] font-[500] mt-[5px]">kunaal kumar</p>
+                    </div>
+                    <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-4 rounded-full mt-[5px] hover:bg-violet-800 hover:rounded-full">switch</button>
+                </div>
+                <p class="text-[14px] opacity-50 font-[700] m-[20px,0]">Suggestions for you</p>
+                <div class=" w-fit flex justify-center items-center mb-[10px] mt-[10px]">
+                    <div class="flex-[0,0,auto] p-0 bg-none w-[40px] h-[40px] mr-[10px]">
+                        <img src="./public/images/cover 9.png" class="border-none rounded-full" alt="">
+                    </div>
+                    <div>
+                        <p class="font-[500] text-[14px] text-[#000]">modern_web_channel</p>
+                        <p class=" opacity-50 text-[12px] font-[500] mt-[5px]">followed bu user</p>
+                    </div>
+                    <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-4 rounded-full mt-[5px] hover:bg-violet-800 hover:rounded-full">follow</button>
+                </div>
+                <div class=" w-fit flex justify-center items-center mb-[10px]">
+                    <div class="flex-[0,0,auto] p-0 bg-none w-[40px] h-[40px] mr-[10px]">
+                        <img src="./public/images/cover 10.png" class="border-none rounded-full" alt="">
+                    </div>
+                    <div>
+                        <p class="font-[500] text-[14px] text-[#000]">modern_web_channel</p>
+                        <p class=" opacity-50 text-[12px] font-[500] mt-[5px]">followed bu user</p>
+                    </div>
+                    <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-4 rounded-full mt-[5px] hover:bg-violet-800 hover:rounded-full">follow</button>
+                </div>
+                <div class=" w-fit flex justify-center items-center mb-[10px]">
+                    <div class="flex-[0,0,auto] p-0 bg-none w-[40px] h-[40px] mr-[10px]">
+                        <img src="./public/images/cover 11.png" class="border-none rounded-full" alt="">
+                    </div>
+                    <div>
+                        <p class="font-[500] text-[14px] text-[#000]">modern_web_channel</p>
+                        <p class=" opacity-50 text-[12px] font-[500] mt-[5px]">followed bu user</p>
+                    </div>
+                    <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-4 rounded-full mt-[5px] hover:bg-violet-800 hover:rounded-full">follow</button>
+                </div>
+                <div class=" w-fit flex justify-center items-center mb-[10px]">
+                    <div class="flex-[0,0,auto] p-0 bg-none w-[40px] h-[40px] mr-[10px]">
+                        <img src="./public/images/cover 12.png" class="border-none rounded-full" alt="">
+                    </div>
+                    <div>
+                        <p class="font-[500] text-[14px] text-[#000]">modern_web_channel</p>
+                        <p class=" opacity-50 text-[12px] font-[500] mt-[5px]">followed bu user</p>
+                    </div>
+                    <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-4 rounded-full mt-[5px] hover:bg-violet-800 hover:rounded-full">follow</button>
+                </div>
+                <div class=" w-fit flex justify-center items-center mb-[10px]">
+                    <div class="flex-[0,0,auto] p-0 bg-none w-[40px] h-[40px] mr-[10px]">
+                        <img src="./public/images/cover 13.png" class="border-none rounded-full" alt="">
+                    </div>
+                    <div>
+                        <p class="font-[500] text-[14px] text-[#000]">modern_web_channel</p>
+                        <p class=" opacity-50 text-[12px] font-[500] mt-[5px]">followed bu user</p>
+                    </div>
+                    <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-4 rounded-full mt-[5px] hover:bg-violet-800 hover:rounded-full">follow</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+            e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+        }
+
+        function like(e) {
+            e.name === 'heart-outline' ? (e.name = "heart-circle-outline") : (e.name = 'heart-outline')
+        }
+
+        function save(e) {
+            e.name === 'bookmark-outline' ? (e.name = "bookmark") : (e.name = 'bookmark-outline')
+        }
+    </script>
+</body>
+
+</html>
