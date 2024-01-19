@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="box-border p-0 m-0 focus:outline-none">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="./src/css/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body class="w-[100%] bg-[#fafafa] relative ">
+
+
+
+
+    <nav class="p-5 shadow text-violet-700 bg-violet-300 md:flex md:items-center md:justify-between">
+        <div class="flex items-center justify-between ">
+            <span class="text-2xl font-[Poppins] font-bold cursor-pointer">
+           Girls Only
+        </span>
+
+            <span class="block mx-2 text-3xl cursor-pointer md:hidden">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
+        </div>
+        <!--navlist 'z-[-1]' -->
+        <ul class="  bg-violet-300  md:flex md:items-center z-[1] md:z-auto md:static absolute  w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="../index.html" class="px-2 text-xl duration-500 rounded-full hover:text-violet-800 hover:underline">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./Notification.html" class="text-xl duration-500 hover:underline hover:text-violet-800">Notification</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./Messages.html" class="text-xl duration-500 hover:text-violet-800 hover:underline">Messages</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./profile.html" class="text-xl duration-500 hover:text-violet-800 hover:underline">Profile</a>
+            </li>
+
+            <a href="./login.html">
+                <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-violet-800 hover:rounded-full">
+        Login
+    </button>
+            </a>
+            <h2 class=""></h2>
+        </ul>
+    </nav>
+    <section class="">
+        <!--head-->
+        <div class="w-[100%] md:p-[40px,0] mr-[20px] flex  pr-[10px] mt-[10px] ml-[5px] text-violet-700">
+            <a href="#" class="mr-[10px] inline-block items-center mt-[4px]">
+                <ion-icon class="text-lg hover:text-violet-800" name="arrow-back"></ion-icon>
+            </a>
+            <p class="pr-[5px]">My Profile</p>
+        </div>
+        <!--my name edit-->
+        <div class=" w-full md:w-[1000px] flex justify-between items-center ml-[10px] mr-[10px] pr-[10px] mb-[10px] mt-[10px]">
+            <div class="flex-[0,0,auto] p-0 bg-none w-[70px] h-[70px] mr-[10px]">
+                <img src="../public/images/cover 11.png" class="border-none rounded-full" alt="">
+            </div>
+            <div>
+                <p class="font-[500] text-[14px] text-violet-700">Anastasia Mari</p>
+                <p class="text-violet-700 opacity-50 text-[12px] font-[500] mt-[5px]">anastasia mari</p>
+            </div>
+            <button class="bg-violet-600 text-white font-[Poppins] duration-500 px-4 rounded-full mt-[5px] ml-auto hover:bg-violet-800 hover:rounded-full">Edit Profile</button>
+        </div>
+        <div class="flex items-center justify-around  pr-[2px] mt-[15px]">
+            <div class=" w-[100px] h-[80px] border p-4 bg-[#fff] rounded-bl-full rounded-tr-full ">
+                <p class=" font-[500] text-[14px] text-violet-700">Photo</p>
+                <p class="text-violet-700 opacity-50 text-[12px] font-[500] mt-[5px] ml-[30px]">576</p>
+            </div>
+            <div class=" w-[100px] h-[80px] border p-4 bg-[#fff] rounded-bl-full rounded-tr-full  ">
+                <p class="font-[500] text-[14px] text-violet-700 ml-[-5px] ">Followers</p>
+                <p class="text-violet-700 opacity-50 text-[12px] font-[500] mt-[5px] ml-[30px]">12,445</p>
+            </div>
+            <div class=" w-[100px] h-[80px] border p-4 bg-[#fff] rounded-bl-full rounded-tr-full ">
+                <p class="font-[500] text-[14px] text-violet-700">follows</p>
+                <p class="text-violet-700 opacity-50 text-[12px] font-[500] mt-[5px] ml-[30px]">150</p>
+            </div>
+
+        </div>
+        <div class="flex justify-around item-center ">
+            <div class=" w-[100px] h-[80px] border p-4 bg-[#fff] rounded-bl-full rounded-tr-full inline-flex  ">
+                <ion-icon class="h-[25px] m-0 mt-[4px] mr-[5px] text-2xl text-violet-700  items-center" name="images"></ion-icon>
+                <p class="text-violet-700 text-[12px] font-[500]  ">My Photo</p>
+            </div>
+            <div class=" w-[100px] h-[80px] border p-4 bg-[#fff] rounded-bl-full rounded-tr-full inline-flex ">
+                <ion-icon class="h-[25px] m-0 mt-[4px] mr-[5px] text-2xl text-violet-700  items-center" name="camera"></ion-icon>
+                <p class="text-violet-700  text-[12px] font-[500] ">Share Photo</p>
+
+            </div>
+        </div>
+        <!--Photos-->
+        <div class=" w-full grid grid-flow-row grid-cols-2 md:grid-cols-3 gap-y-4  gap-4 border justify-evenly mt-[10px] ">
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"> <img src="../public/images/cover 1.png" alt=""> </div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"> <img src="../public/images/cover 2.png" alt=""></div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"> <img src="../public/images/cover 6.png" alt=""></div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"><img src="../public/images/cover 10.png" alt=""></div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"> <img src="../public/images/cover 12.png" alt=""></div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"> <img src="../public/images/cover 13.png" alt=""></div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"> <img src="../public/images/cover 3.png" alt=""></div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"><img src="../public/images/cover 5.png" alt=""></div>
+            <div class="w-[150] md:pl-[5px] md:w-[250px] h-[250]"><img src="../public/images/cover 4.png" alt=""></div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+            e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+        }
+    </script>
+</body>
+
+</html>
